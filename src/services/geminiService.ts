@@ -1,5 +1,5 @@
 import { GoogleGenerativeAI } from '@google/generative-ai';
-import Config from 'react-native-config';
+const Config = require('react-native-config');
 
 // Initialize the Gemini API with the API key from environment variables
 const API_KEY = Config.GEMINI_API_KEY || 'AIzaSyC14PHPrh9xsETcIdJTAty2YQ6ntaT3qog'; // Fallback for development

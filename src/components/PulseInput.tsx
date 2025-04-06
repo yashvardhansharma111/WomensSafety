@@ -11,7 +11,7 @@ import {
 } from 'react-native';
 import Toast from 'react-native-root-toast';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import Config from 'react-native-config';
+const Config = require('react-native-config');
 import { generateGeminiResponse, GEMINI_PROMPTS } from '../services/geminiService';
 import { sendEmergencyLocation } from '../utils/locationUtils';
 
