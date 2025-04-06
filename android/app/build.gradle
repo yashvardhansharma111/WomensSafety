@@ -51,6 +51,7 @@ react {
     // hermesFlags = ["-O", "-output-source-map"]
 
     /* Autolinking */
+    
     autolinkLibrariesWithApp()
 }
 
@@ -117,3 +118,6 @@ dependencies {
         implementation jscFlavor
     }
 }
+
+
+
